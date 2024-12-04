@@ -1,0 +1,47 @@
+body{
+    text-align: center;
+    background-color: darkgray;
+}
+.btn{
+    width: 200px;
+    height: 200px;
+    border-radius: 20%;
+    border: 10px solid black;
+    margin: 2.5rem;
+}
+.btn-container{
+    display: flex;
+    justify-content: center;
+}
+.yellow{
+    background-color: #f99b45;
+}
+.red{
+    background-color: #d95980;
+}
+.green{
+    background-color: #63acc0;
+}
+.purple{
+    background-color: #819ff9;
+}
+.flash{
+    background-color: white;
+}
+.userflash{
+    background-color: aquamarine;
+}
+h3 {
+    font-size: 30px;
+}
+.btn:hover{
+    font-size: larger;
+    box-shadow: 10px 10px 20px black;
+    transition: 2 s;
+}
+h1{
+    font-family:'Times New Roman', Times, serif;
+    font-size:4rem;
+    text-decoration: underline;
+    
+}
